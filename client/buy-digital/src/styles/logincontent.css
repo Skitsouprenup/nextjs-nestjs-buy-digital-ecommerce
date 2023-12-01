@@ -1,0 +1,11 @@
+.link-button {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+
+.link-button:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}

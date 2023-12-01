@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals"],
+  /*
+    Exclude the file to remove the 'next/babel' error in
+    next.config.js. VScode eslint configuration may be
+    the reason why this error occurs.
+  */
+  "overrides": [
+    {
+      "files": ["next.config.js"],
+      // This is the default parser of ESLint
+      "parser": "espree",
+      "parserOptions": {
+        "ecmaVersion": "latest"
+      }
+    }
+  ]
+}
