@@ -13,20 +13,6 @@ I have a demo video of this project in this [link](https://www.youtube.com/watch
 You can clone this project and test it for yourself. However, you need to create *.env* file in *client/buy-digial* directory for frontend. For the backend, you need to create *config*
 directory in *server* directory then create *default.json* in it.
 
-## Back-end
-
-# nextjs-nestjs-buy-digital-ecommerce
-A simple e-commerce app developed using NextJS 13 and NestJS. Not fully polished and I forgot
-too add functionalities in product filtering. That said, the project is working fine. 
-
-I have a quick demo of this project in this [link](https://www.youtube.com/watch?v=uPy_wX6NcwY)
-
-# Technologies Used
-* **NextJS**
-* **NestJS**
-* **React-Bootsrap**
-* **MongoDB**
-
 # Testing this project
 You can clone this project and test it for yourself. However, you need to create *.env* file in *client/buy-digial* directory for frontend. For the backend, you need to create *config*
 directory in *server* directory then create *default.json* in it.
