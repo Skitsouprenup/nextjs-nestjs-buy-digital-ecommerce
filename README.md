@@ -11,7 +11,7 @@ project:
 * Purchase product via stripe.
 * View orders.
 
-I have a demo video of this project in this [link](https://www.youtube.com/watch?v=uPy_wX6NcwY)
+I have a quick demo of this project in this [link](https://www.youtube.com/watch?v=uPy_wX6NcwY)
 
 # Technologies Used
 * **NextJS**
