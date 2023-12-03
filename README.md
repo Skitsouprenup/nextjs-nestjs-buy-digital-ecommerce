@@ -1,5 +1,15 @@
 # nextjs-nestjs-buy-digital-ecommerce
-A simple e-commerce app developed using NextJS 13 and NestJS.
+A simple e-commerce app developed using NextJS 13 and NestJS. Functionalities of this
+project:
+
+* Sends OTP via email for account activation and resetting password.
+* Create and edit account.
+* Add, delete and edit software products.
+* Shopping Cart
+* Add, delete and edit license tiers.
+* Add, delete and edit software licenses.
+* Purchase product via stripe.
+* View orders.
 
 I have a demo video of this project in this [link](https://www.youtube.com/watch?v=uPy_wX6NcwY)
 
@@ -8,10 +18,7 @@ I have a demo video of this project in this [link](https://www.youtube.com/watch
 * **NestJS**
 * **React-Bootsrap**
 * **MongoDB**
-
-# Testing this project
-You can clone this project and test it for yourself. However, you need to create *.env* file in *client/buy-digial* directory for frontend. For the backend, you need to create *config*
-directory in *server* directory then create *default.json* in it.
+* **Stripe**
 
 # Testing this project
 You can clone this project and test it for yourself. However, you need to create *.env* file in *client/buy-digial* directory for frontend. For the backend, you need to create *config*
