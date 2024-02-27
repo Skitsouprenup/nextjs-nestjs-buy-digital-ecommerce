@@ -3,7 +3,6 @@ import Col from 'react-bootstrap/Col'
 import Breadcrumbs from '@/components/shared/Breadcrumbs'
 
 import SortSelection from '@/components/products/productspage/SortSelection'
-import ProductsFilter from '@/components/products/productspage/ProductsFilter'
 import ProductItem from '@/components/products/ProductItems'
 import ProductsListPagination from '@/components/products/productspage/ProductsListPagination'
 import CreateProductButton from '@/components/products/productspage/CreateProductButton'
@@ -46,9 +45,6 @@ export default async function ProductsPage() {
       </Row>
 
       <Row className='mt-2'>
-        <Col sm={3}>
-          <ProductsFilter />
-        </Col>
         <Col sm={9}>
           <Row xs={1} md={2} lg={3} className='gap-2'>
             <ProductItem 

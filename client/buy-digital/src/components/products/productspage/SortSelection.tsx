@@ -5,10 +5,7 @@ import { useState } from "react"
 import Dropdown from 'react-bootstrap/Dropdown'
 import DropdownButton from "react-bootstrap/DropdownButton"
 
-import { useRouter } from 'next/navigation'
-
 const SortSelection = () => {
-  const router = useRouter()
   const [sortText, setSortText] = useState<string>('Rating')
 
   const selectSortType = (type: string | null): string => {
